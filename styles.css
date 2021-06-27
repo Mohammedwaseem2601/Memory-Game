@@ -1,0 +1,42 @@
+body{
+  background-color: #161616;
+}
+
+.desc{
+  text-align: center;
+  font-family: "Arvo", cursive;
+  color: white;
+}
+
+#score{
+  font-family: 'Roboto', sans-serif;
+}
+
+#container{
+  margin:  auto;
+  background-color: white;
+  width: 860px;
+  height: 640px;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 200px);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+img:hover{
+  opacity: 0.3;
+}
+
+footer{
+  margin-top: 1%;
+  text-align: center;
+  color: white;
+}
